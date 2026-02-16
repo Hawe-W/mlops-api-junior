@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mlops-cours"
+version = "0.1.0"
+description = "Projet MLOps pédagogique"
+authors = ["Toi"]
+
+[too.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115"
+uvicorn = "^0.30"
+pydantic = "^2.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

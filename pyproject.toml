@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mlops-niveau1"
+version = "0.1.0"
+description = "Projet MLOps niveau 1"
+authors = ["Ton Nom"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115"
+uvicorn = "^0.30"
+pydantic = "^2.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
